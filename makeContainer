@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -it -d --cpus=2 --name electroneumd -v /home/klemen/.electroneum:/root/.electroneum -v /electroneum/wallet:/wallet -p 26967:26967 $1
